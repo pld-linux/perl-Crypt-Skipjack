@@ -40,8 +40,8 @@ roku do 24 czerwca 1998. Skipjack to 64-bitowy szyfr blokowy z
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
-%{__make} OPTIMIZE="%{rpmcflags}"
+%{__make} \
+	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
 
@@ -50,7 +50,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-
 cd examples
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 for f in * ; do
