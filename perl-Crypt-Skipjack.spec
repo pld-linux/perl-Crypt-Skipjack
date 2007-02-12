@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Skipjack
 Summary:	Crypt::Skipjack - Crypt::CBC-compliant block cipher
-Summary(pl):	Crypt::Skipjack - szyfr blokowy kompatybilny z Crypt::CBC
+Summary(pl.UTF-8):   Crypt::Skipjack - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Skipjack
 Version:	1.0.2
 Release:	1
@@ -26,13 +26,13 @@ structure had been classified since its introduction in 1993. Skipjack
 was unclassified on June 24, 1998. Skipjack is an 80-bit key, 64-bit
 block cipher. This module supports the Crypt::CBC interface.
 
-%description -l pl
+%description -l pl.UTF-8
 Skipjack to algorytm szyfrowania klucza tajnego opracowany przez NSA
-(National Security Agency), uøywany w uk≥adzie Clipper i kartach PC
-Fortezza. By≥ zaimplementowany w zabezpieczonym przed intruzami
-sprzÍcie, a jego struktura by≥a zastrzeøona od wprowadzenia w 1993
+(National Security Agency), u≈ºywany w uk≈Çadzie Clipper i kartach PC
+Fortezza. By≈Ç zaimplementowany w zabezpieczonym przed intruzami
+sprzƒôcie, a jego struktura by≈Ça zastrze≈ºona od wprowadzenia w 1993
 roku do 24 czerwca 1998. Skipjack to 64-bitowy szyfr blokowy z
-80-bitowym kluczem. Ten modu≥ obs≥uguje interfejs Crypt::CBC.
+80-bitowym kluczem. Ten modu≈Ç obs≈Çuguje interfejs Crypt::CBC.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
