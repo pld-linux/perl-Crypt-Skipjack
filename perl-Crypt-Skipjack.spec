@@ -41,6 +41,7 @@ roku do 24 czerwca 1998. Skipjack to 64-bitowy szyfr blokowy z
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make} \
+	CC="%{__cc}" \
 	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
