@@ -9,7 +9,7 @@ Summary:	Crypt::Skipjack - Crypt::CBC-compliant block cipher
 Summary(pl.UTF-8):	Crypt::Skipjack - szyfr blokowy kompatybilny z Crypt::CBC
 Name:		perl-Crypt-Skipjack
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
