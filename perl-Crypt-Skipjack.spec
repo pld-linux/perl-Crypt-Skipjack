@@ -67,7 +67,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/Crypt/Skipjack.pm
 %dir %{perl_vendorarch}/auto/Crypt/Skipjack
-%{perl_vendorarch}/auto/Crypt/Skipjack/Skipjack.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Crypt/Skipjack/Skipjack.so
 %{_mandir}/man3/*
 %attr(755,root,root) %{_examplesdir}/%{name}-%{version}
